@@ -23,7 +23,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class Ex01 extends Vue {
+export default class Ex02 extends Vue {
   private myName = "";
   private myAge = 0;
   private my10YearsAge = 0;
