@@ -8,6 +8,7 @@
     <h1>Exam answers</h1>
     <!--タグを作成-->
     <router-link to="/ex01">Ex01</router-link> |
+    <router-link to="/ex02">Ex02</router-link> |
 
     <router-view />
   </div>

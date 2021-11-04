@@ -1,13 +1,15 @@
 <template>
   <div class="ex">
     <p>名前：{{ myName }}</p>
-    <p>年齢：{{ myAge }}</p>
-    <p>10年後の年齢：{{ myAge + 10 }}</p>
-    趣味：
-    <span v-for="myHobby of myHobbys" v-bind:key="myHobby">{{
-      myHobby + " "
-    }}</span
-    ><br />
+    <p>年齢：{{ myAge }}歳</p>
+    <p>10年後の年齢：{{ myAge + 10 }}歳</p>
+    <p>
+      趣味：
+      <span v-for="myHobby of myHobbys" v-bind:key="myHobby">{{
+        myHobby + " "
+      }}</span>
+    </p>
+    <br />
     <br />
     <div><a v-bind:href="url">自社ページへリンク</a></div>
     <br />

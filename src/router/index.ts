@@ -23,6 +23,10 @@ const routes: Array<RouteConfig> = [
     path: "/ex01",
     component: () => import("../views/answer/Ex01.vue"),
   },
+  {
+    path: "/ex02",
+    component: () => import("../views/answer/Ex02.vue"),
+  },
 ];
 
 const router = new VueRouter({
