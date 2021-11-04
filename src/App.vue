@@ -4,7 +4,12 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+
+    <h1>Exam answers</h1>
+    <!--タグを作成-->
+    <router-link to="/ex01">Ex01</router-link> |
+
+    <router-view />
   </div>
 </template>
 
